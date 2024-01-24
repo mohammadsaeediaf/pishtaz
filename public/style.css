@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bgColor: #5957e8;
+  --primaryColor: #333;
+  --mainColor: #fff;
+  --footer: #ffd02c;
+  --caption: #ddd;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url(fonts/YekanNewFaceD1-Medium.ttf);
+}
+
+@font-face {
+  font-family: "yekan-bold";
+  src: url(fonts/YekanNewFaceD1-Bold.ttf);
+}
+
+@font-face {
+  font-family: "yekan-reg";
+  src: url(fonts/YekanNewFaceD1-Regular.ttf);
+}
+
+body {
+  background: #f5f5f5;
+  font-family: "yekan";
+  direction: rtl;
+  color: var(--mainColor);
+}
