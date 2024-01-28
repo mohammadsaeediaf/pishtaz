@@ -170,3 +170,71 @@ ul li ul li a {
 .logo img {
   width: 50%;
 }
+
+/* End Header */
+
+/*  main  */
+
+.hero {
+  margin-top: 60px;
+}
+
+.hero-title {
+  text-align: right;
+}
+
+.hero-title h1 {
+  font-family: "yekan-bold";
+  font-size: 2.5rem;
+  margin-top: 60px;
+  color: var(--footer);
+}
+
+.hero-title p {
+  margin-top: 50px;
+  width: 90%;
+  font-family: "yekan-reg";
+  color: #eee;
+  font-size: 19px;
+}
+
+.hero {
+  width: 100%;
+  background-color: var(--bgColor);
+  padding: 3rem 0;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-title .actions button {
+  padding: 10px 15px;
+  font-family: "yekan-bold";
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.hero-title .actions button:hover {
+  background-color: #fff;
+  color: var(--primaryColor);
+}
+
+.hero-title .actions button::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--mainColor);
+  opacity: 0.1;
+  z-index: -1;
+}
+/* End Hero Section */
