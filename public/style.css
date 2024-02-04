@@ -278,3 +278,43 @@ ul li ul li a {
 .why-title::after {
   right: 0;
 }
+
+/* ***** Portfoilo****** */
+
+.portfoilo {
+  margin: 100px 0;
+  padding: 50px 0 100px 0;
+  background: var(--mainColor);
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.portfoilo-title {
+  color: var(--primaryColor);
+  text-align: center;
+  position: relative;
+  margin: 0 auto 40px auto;
+  width: 25%;
+}
+
+.portfoilo-title h1 {
+  font-family: "yekan-bold";
+  font-size: 28px;
+}
+
+.portfoilo-title::before,
+.portfoilo-title::after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3px;
+  background: var(--footer);
+  top: 70%;
+}
+
+.portfoilo-title::before {
+  left: 0;
+}
+
+.portfoilo-title::after {
+  right: 0;
+}
