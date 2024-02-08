@@ -463,3 +463,31 @@ ul li ul li a {
   text-align: center;
   font-size: 18px;
 }
+
+/* arrow */
+
+.arrow {
+  margin: 50px 0;
+}
+
+.arrow-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-icon a {
+  /* border: 1px solid; */
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.arrow-icon img {
+  width: 40%;
+}
