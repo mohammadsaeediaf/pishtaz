@@ -491,3 +491,23 @@ ul li ul li a {
 .arrow-icon img {
   width: 40%;
 }
+
+/* footer */
+
+.footer {
+  background: var(--primaryColor);
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  color: var(--mainColor);
+}
+
+.footer span {
+  font-family: "yekan-bold";
+  color: var(--footer);
+}
+
+.footer .copyright {
+  margin: 0 auto;
+  text-align: center;
+}
