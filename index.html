@@ -3,253 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مجموعه تبلیغاتی پیشتاز</title>
-    <link rel="icon" href="assets/logo.png" />
-    <link rel="stylesheet" href="./public/bootstrap.min.css" />
-    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="icon" href="./assets/img/logo.png" />
+
+    <!--=============== BOXICONS ===============-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>مجموعه تبلیغاتی پیشتاز</title>
   </head>
   <body>
-    <header id="header">
-      <nav role="navigation" class="primary-navigation">
-        <div class="container">
-          <div class="flex nav-items">
-            <div class="menu col-10">
-              <ul>
-                <li><a href="#">صفحه اصلی</a></li>
-                <li>
-                  <a href="#">کارت ویزیت </a>
-                  <!-- <ul class="dropdown" dir="rtl">
-                    <li><a href="#">طرح ها</a></li>
-                    <li><a href="#">Web Design</a></li> 
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Iconography</a></li>
-                  </ul> -->
-                </li>
-                <li><a href="#portfoilo">نمونه کارها</a></li>
-                <li><a href="#about">درباره ما</a></li>
-              </ul>
-            </div>
-            <div class="logo col-2">
-              <img src="./assets/logo.png" alt="Logo" />
-            </div>
-          </div>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"
+          ><img src="./assets/img/logo.png" alt="logo" width="50px"
+        /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">صفحه اصلی</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">درباره ما</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfoilo" class="nav__link">نمونه کارها</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">ارتباط با ما</a>
+            </li>
+            <i class="bx bx-sun"></i>
+          </ul>
         </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+
+        <a href="#" class="button button__header">سفارش </a>
       </nav>
     </header>
 
-    <main>
-      <div class="hero">
-        <div class="container">
-          <div class="flex">
-            <div class="hero-title col-7">
-              <h1>چاپ کارت ویزیت خود را به ما بسپارید !</h1>
-              <p>
-                مجموعه تبلیغاتی پیشتاز با افتخار، خدمات حرفه‌ای چاپ کارت
-                ویزیت را با کیفیت بالا ارائه می‌دهیم. اگر به دنبال چاپ کارت
-                ویزیت‌های شخصی یا تجاری با طرح‌های جذاب و منحصر به فرد هستید، با
-                ما همراه شوید. با ما هویت حرفه‌ای و منحصر به فرد خود را به
-                دیگران نشان دهید و با ما تجربه‌ای لذت‌بخش از خرید کارت ویزیت
-                داشته باشید
-              </p>
-              <div class="actions">
-                <button>سفارش کارت ویزیت</button>
-              </div>
-            </div>
-            <div class="hero-img col-5">
-              <img src="assets/hero.png" alt="hero" />
-            </div>
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">چاپ کارت ویزیت خود را به ما بسپارید !</h1>
+            <p class="home__description">
+              مجموعه تبلیغاتی پیشتاز با افتخار، خدمات حرفه‌ای چاپ کارت ویزیت را
+              با کیفیت بالا ارائه می‌دهیم. اگر به دنبال چاپ کارت ویزیت‌های شخصی
+              یا تجاری با طرح‌های جذاب و منحصر به فرد هستید، با ما همراه شوید.
+              با ما هویت حرفه‌ای و منحصر به فرد خود را به دیگران نشان دهید و با
+              ما تجربه‌ای لذت‌بخش از خرید کارت ویزیت داشته باشید
+            </p>
+            <a href="#" class="button">سفارش کارت ویزیت</a>
           </div>
-        </div>
-      </div>
-
-      <!-- Why Us Section -->
-
-      <section>
-        <div class="why">
-          <div class="container">
-            <div class="why-title">
-              <h1>چرا ما؟</h1>
-            </div>
-            <!-- card 1 -->
-
-            <div class="cards">
-              <div class="card col-4">
-                <img src="assets/designing.png" alt="design" />
-                <h2 class="card-title">طراحی حرفه ای</h2>
-                <p class="card-caption">
-                  طراحی خاص و حرفه ای کارت ویزیت ، شما را از دیگران متمایز میکند
-                  ! چقدر به این موضوع اهمیت میدهید؟
-                </p>
-              </div>
-
-              <!-- card 2 -->
-
-              <div class="card col-4">
-                <img src="assets/quality.png" alt="quality" />
-                <h2 class="card-title">کیفیت فوق العاده</h2>
-                <p class="card-caption">
-                  کارت های شما با بالا ترین کیفیت و با کیفیت ترین متریال های حال
-                  حاضر چاپ میشود
-                </p>
-              </div>
-
-              <!-- card 3 -->
-
-              <div class="card col-4">
-                <img src="assets/delivery.png" alt="delivery" />
-                <h2 class="card-title">تحویل فوری</h2>
-                <p class="card-caption">
-                  نیازی نیست برای تحویل گرفتن کارت خود محل کار خود را ترک نمایید
-                  ما این کار را برای شما انجام میدهیم
-                </p>
-              </div>
-            </div>
-          </div>
+          <img src="assets/img/hero.png" alt="" />
         </div>
       </section>
 
-      <!-- End Why Us -->
 
-      <!-- Portfoilo section -->
 
-      <section id="portfoilo">
-        <div class="portfoilo">
-          <div class="container">
-            <div class="portfoilo-title">
-              <h1>نمونه کارها</h1>
-            </div>
-            <!-- Image Carousel -->
-
-            <div class="carousel-section" dir="ltr">
-              <div class="wrapper">
-                <i id="left" class="fa-solid fa-angle-left"></i>
-                <div class="carousel">
-                  <img
-                    src="./assets/Cards/catan-talakob.png"
-                    alt="catan-talakob"
-                  />
-                  <img
-                    src="./assets/Cards/celephon-baragh.png"
-                    alt="celephon-baragh"
-                  />
-                  <img src="./assets/Cards/catan.png" alt="catan" />
-                  <img
-                    src="./assets/Cards/celephon-makhmali.png"
-                    alt="celephon-makhmali"
-                  />
-                  <img
-                    src="./assets/Cards/celephon-moraba.png"
-                    alt="celephon-moraba"
-                  />
-                  <img
-                    src="./assets/Cards/celephone-mat-small.png"
-                    alt="celephone-mat-small"
-                  />
-                  <img
-                    src="./assets/Cards/celephone-baragh.png"
-                    alt="celephone-baragh"
-                  />
-                  <img
-                    src="./assets/Cards/celephone-mat.png"
-                    alt="celephone-mat"
-                  />
-                  <img
-                    src="./assets/Cards/celephone-matte-makhmali.png"
-                    alt="celephone-matte-makhmali"
-                  />
-                  <img
-                    src="./assets/Cards/gelase-dorgerd-bedone-rokesh.png"
-                    alt="gelase-dorgerd-bedone-rokesh"
-                  />
-                  <img
-                    src="./assets/Cards/glass-bedon-rokesh.png"
-                    alt="glass-bedon-rokesh"
-                  />
-                  <img src="./assets/Cards/glass-uv.png" alt="glass-uv" />
-                  <img
-                    src="./assets/Cards/glasse-filter.png"
-                    alt="glasse-filter"
-                  />
-                  <img src="./assets/Cards/karti 300.png" alt="karti-300" />
-                </div>
-                <a href="#" class="more-cards" dir="rtl">
-                  <p>مشاهده بیشتر ...</p>
-                </a>
-                <i id="right" class="fa-solid fa-angle-right"></i>
-              </div>
-            </div>
-
-            <!-- End image carousel -->
-          </div>
-        </div>
-      </section>
-
-      <!-- End portfoilo section -->
-
-      <!-- About Section -->
-
-      <section id="about">
-        <div class="about">
-          <div class="container">
-            <div class="about-title">
-              <h1>درباره ما</h1>
-            </div>
-            <div class="about-caption">
-              <p>
-                در شروع فعالیت با توجه به نقش گسترده و اهمیت مراکز خدمات پس از
-                چاپ، این مجموعه کیفیت را سرلوحه کار خود قرار داده و پس از مدت
-                کوتاهی توانست علاوه بر ترفیع خدمات پس از چاپ، خدمات چاپ و قبل از
-                چاپ خود را راه اندازی کند. تمرکز گروه چاپ تبلیغاتی پیشتاز در
-                حیطه فرم‌های عمومی و ارائه محصول‌های متنوع و با کـیفیت در این
-                زمـینه است. این گروه به عنوان یک گروه تخصـصی در زمیـنه چاپ افسـت
-                فعالیـت می کند...
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="services">
-          <div class="container">
-            <img
-              src="assets/khadamat.png"
-              class="services-img"
-              alt="services"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="arrow">
-          <div class="container">
-            <a href="#header">
-              <div class="arrow-icon">
-                <img src="assets/arrow-up.png" alt="arrow" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- footer -->
-
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <p class="copyright">
-            کلیه حقوق این سایت متعلق به
-            <span>مجموعه تبلیغاتی پیشتاز</span> میباشد
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <script src="./public/script.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
