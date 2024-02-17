@@ -464,6 +464,15 @@ ul li ul li a {
   font-size: 18px;
 }
 
+/*=============== ABOUT ===============*/
+.about__container {
+  gap: 2.5rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
 /* arrow */
 
 .arrow {
@@ -511,5 +520,3 @@ ul li ul li a {
   margin: 0 auto;
   text-align: center;
 }
-
-
