@@ -501,22 +501,61 @@ ul li ul li a {
   width: 40%;
 }
 
-/* footer */
 
-.footer {
-  background: var(--primaryColor);
-  position: absolute;
-  padding: 10px;
-  width: 100%;
-  color: var(--mainColor);
+/*=============== SECURITY ===============*/
+.security__container {
+  gap: 2.5rem;
 }
 
-.footer span {
-  font-family: "yekan-bold";
-  color: var(--footer);
-}
-
-.footer .copyright {
-  margin: 0 auto;
+.security__data {
   text-align: center;
+}
+
+
+
+/*=============== CONTACT ===============*/
+.contact__container {
+  padding-bottom: 3rem;
+}
+
+.contact__description {
+  text-align: center;
+}
+
+.contact__content {
+  row-gap: 0.75rem;
+}
+
+.contact__address {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  font-size: 1.1rem;
+}
+
+.contact__social {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 1rem;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.contact__social-link {
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+
+.contact__information {
+  /* font-weight: initial; */
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-top: 20px;
+  font-family: "yekan-bold";
+  /* font-weight: 500; */
+}
+
+.contact__information a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
